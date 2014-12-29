@@ -1,0 +1,36 @@
+<template name="nav">
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Movist</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bar">
+        <ul class="nav navbar-nav">
+          <!--<li><a href="post">Views</a></li>-->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            {{>loginButtons}}
+        </ul>
+
+      </div>
+    </nav>
+      {{>yield}}
+  </div>
+
+</template>
+
+
+<template name="main">
+  <div id="container">
+    <div class="row">
+        {{> postsList}}
+    </div>
+  </div>
+</template>
