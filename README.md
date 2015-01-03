@@ -5,4 +5,4 @@ Frograms homework
 
 - Movie listing
 
-movist.meteor.com
+http://movist.meteor.com
