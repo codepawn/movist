@@ -1,8 +1,13 @@
 movist
 ======
 
+Movie listing application
+
 Frograms homework
 
-- Movie listing
+- Masonry
+- 500 json movie data
+- em
+- coffee
 
 http://movist.meteor.com
