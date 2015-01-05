@@ -1,4 +1,4 @@
-moviedata = [
+moviedatas = [
 {
 "main_genre": "미상",
 "nation": "홍콩",

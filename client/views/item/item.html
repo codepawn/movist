@@ -1,14 +1,5 @@
-<template name="postsList">
-    {{#each posts}}
-      <div class="item">
-          {{> postItem}}
-      </div>
-    {{/each}}
-</template>
+<template name="PostItem">
 
-
-<template name="postItem">
-  <div class="col-md-3">
     <div class="thumbnail">
       <a href="{{poster}}">
         <img src="{{poster}}" alt="{{title}}">
@@ -20,8 +11,8 @@
         <p>장르: {{main_genre}}, 국가: {{nation}}({{year}}년)</p>
 
         <p>런닝타임: {{running_time}}분</p>
-        <a href="#" class="btn btn-default" role="button">Remove</a>
+        <div name="remove" class="btn btn-default">Remove</div>
       </div>
-    </div>
+
   </div>
 </template>

@@ -9,4 +9,8 @@ mizzao:bootstrap-3
 iron:router
 accounts-password
 ian:accounts-ui-bootstrap-3
+coffeescript
+sjors:meteor-masonry
+mrt:jquery-imagesloaded
+jquery
 
