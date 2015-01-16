@@ -1,9 +1,18 @@
 <template name="Main">
   <div id="container">
-      {{#each posts}}
-        <div class="item">
-            {{> PostItem}}
-        </div>
-      {{/each}}
+
+      {{#masonryContainer transitionDuration="0.1s" gutter=5 id="MasonryContainer" }}
+
+          {{#masonryElement "MasonryContainer"}}
+            <button id="add" class="btn btn-warning">Add</button>
+          {{/masonryElement}}
+
+          {{#each posts}}
+              {{#masonryElement "MasonryContainer"}}
+                  {{> PostItem}}
+              {{/masonryElement}}
+          {{/each}}
+      {{/masonryContainer}}
+
   </div>
 </template>
