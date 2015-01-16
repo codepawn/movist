@@ -4,7 +4,8 @@
       {{#masonryContainer transitionDuration="0.1s" gutter=5 id="MasonryContainer" }}
 
           {{#masonryElement "MasonryContainer"}}
-            <button id="add" class="btn btn-warning">Add</button>
+            <button id="add" class="btn btn-warning" data-target="#modal" data-toggle="modal">Add</button>
+              {{>Modal}}
           {{/masonryElement}}
 
           {{#each posts}}
