@@ -1,5 +1,6 @@
 Template.Main.helpers
-  posts: moviedata
+  posts: ->
+    Meteor.Collection.ObjectID().find()
 
 Template.Main.events
   'click div[name=remove]': ->
