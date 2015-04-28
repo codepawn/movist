@@ -15,4 +15,8 @@ msavin:mongol
 less
 fourseven:scss
 twbs:bootstrap
-autopublish
+multiply:iron-router-progress
+sacha:spin
+aldeed:collection2
+aldeed:autoform
+aldeed:simple-schema
