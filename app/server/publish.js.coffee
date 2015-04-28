@@ -4,6 +4,7 @@ Meteor.publish 'movies', (limit) ->
 
   MovieData.find {}, {
     sort:
+      createdAt: -1
       title: -1
     limit: limit
   }

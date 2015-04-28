@@ -12,6 +12,14 @@ MovieData.attachSchema new SimpleSchema
     type: String
   main_genre:
     type: String
+  createdAt:
+    type: Date
+    autoValue: ->
+      new Date
+#    denyUpdate: true
+    autoform:
+      omit: true
+
 
 if Meteor.isServer
   MovieData.allow

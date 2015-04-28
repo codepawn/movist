@@ -6,9 +6,6 @@ Template.Home.events
   'click div[name=remove]': ->
     MovieData.remove _id: this._id
 
-  'click [name=more]': ->
-    incrementLimit()
-
 Template.Home.helpers
   posts: ->
     MovieData.find {}, {
@@ -19,8 +16,14 @@ Template.Home.created = ->
   Session.setDefault 'limit', 10
 
 Template.Home.rendered = ->
+  timer = undefined
   $(window).scroll ->
-    if $(window).scrollTop() + $(window).height() > $(document).height() - 50
-      incrementLimit()
+    if $(window).scrollTop() + $(window).height() > $(document).height() - 200
+      if timer
+        window.clearTimeout timer
+      timer = window.setTimeout((->
+        console.log 'Fire!!'
+        incrementLimit()
+      ), 200)
 
 Template.Home.destroyed = ->
