@@ -1,3 +1,19 @@
 <template name="Home">
-  <h1>Find me in app/client/templates/home/home</h1>
+  <div id="container">
+
+    {{#masonryContainer transitionDuration="0.1s" gutter=5 id="MasonryContainer" }}
+
+      {{#masonryElement "MasonryContainer"}}
+        <button id="add" class="btn btn-warning" data-target="#modal" data-toggle="modal">Add</button>
+        {{>Modal}}
+      {{/masonryElement}}
+
+      {{#each posts}}
+        {{#masonryElement "MasonryContainer"}}
+          {{> MovieItems}}
+        {{/masonryElement}}
+      {{/each}}
+    {{/masonryContainer}}
+
+  </div>
 </template>
