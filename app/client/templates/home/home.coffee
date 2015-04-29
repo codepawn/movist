@@ -13,7 +13,7 @@ Template.Home.helpers
     }
 
 Template.Home.created = ->
-  Session.setDefault 'limit', 10
+  Session.setDefault 'limit', 15
 
 Template.Home.rendered = ->
   timer = undefined

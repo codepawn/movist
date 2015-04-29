@@ -1,6 +1,7 @@
 <template name="MovieItems">
   <div class="thumbnail">
     <a href="{{pathFor 'movieDetail'}}">
+    <!--<a href="{{pathFor 'movieDetail' _id=this._id.toHexString}}">-->
       <img src="{{poster}}" alt="{{title}}">
 
       <div class="media-body">

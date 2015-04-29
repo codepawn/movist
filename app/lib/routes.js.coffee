@@ -9,7 +9,7 @@ Router.route '/',
   action: 'action'
   where: 'client'
 
-Router.route 'movie_detail',
+Router.route '/movie/:_id',
   name: 'movieDetail'
   controller: 'MovieDetailController'
   action: 'action'

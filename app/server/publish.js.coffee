@@ -8,3 +8,6 @@ Meteor.publish 'movies', (limit) ->
       title: -1
     limit: limit
   }
+
+Meteor.publish 'movie', (id)->
+  MovieData.find _id: id

@@ -16,7 +16,7 @@ MovieData.attachSchema new SimpleSchema
     type: Date
     autoValue: ->
       new Date
-#    denyUpdate: true
+    denyUpdate: true
     autoform:
       omit: true
 
