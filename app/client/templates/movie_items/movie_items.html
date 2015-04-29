@@ -1,7 +1,9 @@
 <template name="MovieItems">
   <div class="thumbnail">
-    <a href="{{pathFor 'movieDetail'}}">
-    <!--<a href="{{pathFor 'movieDetail' _id=this._id.toHexString}}">-->
+    <a href="/movie/{{_id._str}}">
+      <!--<a href="movie/{{converter}}">-->
+      <!--<a href="{{pathFor 'movieDetail' _id=this._id.toHexString}}">-->
+      <!--<a href="{{pathFor 'movieDetail'}}">-->
       <img src="{{poster}}" alt="{{title}}">
 
       <div class="media-body">
@@ -13,7 +15,7 @@
       </div>
     </a>
 
-    <div name="edit" class="btn btn-default">Edit</div>
+    <div class="rateit"></div>
     <div name="remove" class="btn btn-default">Remove</div>
   </div>
 </template>

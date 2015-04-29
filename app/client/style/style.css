@@ -1,7 +1,13 @@
-.thumbnail{
+.thumbnail {
     width: 224px;
 }
-#add{
+
+.thumbnail-detail {
+    width: 500px;
+}
+
+#add {
     width: 224px;
     height: 300px;
 }
+

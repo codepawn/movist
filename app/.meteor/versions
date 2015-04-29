@@ -16,6 +16,7 @@ boilerplate-generator@1.0.2
 callback-hook@1.0.2
 check@1.0.3
 coffeescript@1.0.5
+dandv:jquery-rateit@1.0.22_2
 dburles:mongo-collection-instances@0.3.3
 ddp@1.0.13
 deps@1.0.6

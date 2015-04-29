@@ -1,4 +1,5 @@
-Template.MovieItems.events {}
+Template.MovieItems.events
+
 
 Template.MovieItems.helpers {}
 
@@ -6,5 +7,6 @@ Template.MovieItems.helpers {}
 Template.MovieItems.created = ->
   
 Template.MovieItems.rendered = ->
+  $('.rateit').rateit()
   
 Template.MovieItems.destroyed = ->
