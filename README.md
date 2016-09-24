@@ -1,6 +1,11 @@
 # movist
 
+# No longer maintain.
 
-http://movist.meteor.com/
+Meteor.js
 
-http://movist2.meteor.com/
+Movie application
+
+~~http://movist.meteor.com/~~
+
+~~http://movist2.meteor.com/~~
