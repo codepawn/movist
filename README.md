@@ -1,10 +1,10 @@
 # movist
 
-### No longer maintain.
-
 Meteor.js
 
 Movie application
+
+### No longer maintain.
 
 ~~http://movist.meteor.com/~~
 
