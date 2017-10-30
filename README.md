@@ -1,10 +1,10 @@
+# Deprecated
+
 # movist
 
 Meteor.js
 
 Movie application
-
-### No longer maintain.
 
 Demo
 
